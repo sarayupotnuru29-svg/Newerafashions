@@ -151,13 +151,13 @@ export const Products = () => {
             {[
               {
                 icon: '👖',
-                title: '15 Jeans Styles',
+                title: 'Jeans Styles',
                 description: 'Premium denim at ₹799 each',
                 highlight: 'From classic blue to trendy cargo',
               },
               {
                 icon: '👔',
-                title: '2 Shirt Varieties',
+                title: 'Shirt Varieties',
                 description: 'Elegant shirts at ₹599 each',
                 highlight: 'Black & White essentials',
               },

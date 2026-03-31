@@ -9,7 +9,13 @@ import {
   Clock,
   ArrowUp,
 } from 'lucide-react';
-import logo from 'figma:asset/402c89b5ffe7e7779208266ee3c34a02fb7a954c.png';
+
+/**
+ * Corrected Relative Import:
+ * This points to D:\new era fashions\src\assets\logo.png
+ * '../assets/logo.png' moves up one level to 'src' and then into 'assets'
+ */
+import logo from '../../assets/logo.png';
 
 export const Footer = () => {
   const scrollToTop = () => {

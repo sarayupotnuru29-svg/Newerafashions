@@ -1,18 +1,26 @@
 import { Product } from '../context/CartContext';
 
-// Import product images
-import jeans1 from 'figma:asset/f802df5a80443e1d372b6016a0a959de02a64965.png';
-import jeans2 from 'figma:asset/b2ca6592e55a1ab936348c17be2e9b963529589f.png';
-import jeans3 from 'figma:asset/0452c3186a08fad30eca07047de29dc515be9e8c.png';
-import jeans4 from 'figma:asset/5d3b10e11ea0a0ab62e64e3e99ff982bec02a751.png';
-import jeans5 from 'figma:asset/38e40d2787e01ccc0f48f0790a4ffa9c5856c369.png';
-import jeans6 from 'figma:asset/aa87f07575527ea284a3920b5dde3227e993da85.png';
-import jeans7 from 'figma:asset/1b7e71be74526fb6d18a1d7ef8a9176f7a78e0ad.png';
-import shirt1 from 'figma:asset/b895990aff201d4a6138683dbb66883cae2b4998.png';
-import shirt2 from 'figma:asset/efd7cb09ea88b575d1a53b78343fbf9ee1c9436f.png';
+// Standard Relative Imports from src/assets/
+import jeans1 from '../../assets/jeans1.png';
+import jeans2 from '../../assets/jeans2.png';
+import jeans3 from '../../assets/jeans3.png';
+import jeans4 from '../../assets/jeans4.png';
+import jeans5 from '../../assets/jeans5.png';
+import jeans6 from '../../assets/jeans6.png';
+import jeans7 from '../../assets/jeans7.png';
+import jeans8 from '../../assets/jeans8.png';
+import jeans9 from '../../assets/jeans9.png';
+import jeans10 from '../../assets/jeans10.png';
+import jeans11 from '../../assets/jeans11.png';
+import jeans12 from '../../assets/jeans12.png';
+import shirt1 from '../../assets/shirt1.png';
+import shirt2 from '../../assets/shirt2.png';
+import shirt3 from '../../assets/shirt3.png';
+import shirt4 from '../../assets/shirt4.png';
+import shirt5 from '../../assets/shirt5.png';
 
 export const products: Product[] = [
-  // Jeans Products (15 total - using 7 images, some repeated with different names)
+  // Jeans Products (15 total)
   {
     id: 'jeans-1',
     name: 'Classic Blue Jeans',
@@ -71,68 +79,45 @@ export const products: Product[] = [
   },
   {
     id: 'jeans-8',
-    name: 'Light Blue Relaxed',
+    name: 'Light-Gray Acid-Wash Slim-Fit Jeans',
     price: 799,
-    image: jeans1,
-    description: 'Comfortable relaxed fit in light blue wash',
+    image: jeans8,
+    description: 'Modern acid-wash finish with a flexible slim-fit cut.',
     category: 'jeans',
   },
   {
     id: 'jeans-9',
-    name: 'Stone Grey Straight',
+    name: 'Light-Blue Distressed Skinny Jeans',
     price: 799,
-    image: jeans2,
-    description: 'Contemporary stone grey straight leg jeans',
+    image: jeans9,
+    description: 'Casual light-blue denim featuring trendy distressed detailing.',
     category: 'jeans',
   },
   {
     id: 'jeans-10',
-    name: 'Dark Black Baggy',
+    name: 'Charcoal-Black Ripped Denim Jeans',
     price: 799,
-    image: jeans3,
-    description: 'Trendy baggy fit in dark black denim',
+    image: jeans10,
+    description: 'Bold charcoal-black style with edgy ripped accents.',
     category: 'jeans',
   },
   {
     id: 'jeans-11',
-    name: 'Vintage Cargo Jeans',
+    name: 'Dark-Indigo Whisker-Wash Jeans',
     price: 799,
-    image: jeans4,
-    description: 'Vintage-inspired cargo jeans with distressed finish',
+    image: jeans11,
+    description: 'Classic dark-indigo featuring authentic whisker-wash patterns.',
     category: 'jeans',
   },
   {
     id: 'jeans-12',
-    name: 'Combat Cargo Pants',
+    name: 'Mid-Blue Stonewashed Distressed Jeans',
     price: 799,
-    image: jeans5,
-    description: 'Durable combat-style cargo pants',
+    image: jeans12,
+    description: 'Versatile stonewashed blue with a rugged, lived-in look.',
     category: 'jeans',
   },
-  {
-    id: 'jeans-13',
-    name: 'Military Green Cargo',
-    price: 799,
-    image: jeans6,
-    description: 'Classic military green cargo pants',
-    category: 'jeans',
-  },
-  {
-    id: 'jeans-14',
-    name: 'Light Sage Cargo',
-    price: 799,
-    image: jeans7,
-    description: 'Modern light sage cargo with utility pockets',
-    category: 'jeans',
-  },
-  {
-    id: 'jeans-15',
-    name: 'Denim Blue Classic',
-    price: 799,
-    image: jeans1,
-    description: 'Timeless denim blue jeans for everyday wear',
-    category: 'jeans',
-  },
+  
   // Shirt Products (2 total)
   {
     id: 'shirt-1',
@@ -150,4 +135,29 @@ export const products: Product[] = [
     description: 'Crisp white shirt perfect for any occasion',
     category: 'shirt',
   },
+  {
+    id: 'shirt-3',
+    name: 'Steel-Grey Slim-Fit Formal Shirt',
+    price: 599,
+    image: shirt3,
+    description: 'Sharp steel-grey tailored for a sleek, formal silhouette.',
+    category: 'shirt',
+  },
+   {
+    id: 'shirt-4',
+    name: 'Sky-Blue Classic Button-Down Formal Shirt',
+    price: 599,
+    image: shirt4,
+    description: 'Timeless sky-blue button-down for a polished professional look.',
+    category: 'shirt',
+  },
+   {
+    id: 'shirt-5',
+    name: 'Mandarin-Collar Teal and Wine Casual Shirts',
+    price: 599,
+    image: shirt5,
+    description: 'Sophisticated mandarin collars in rich teal and wine hues.',
+    category: 'shirt',
+  },
 ];
+

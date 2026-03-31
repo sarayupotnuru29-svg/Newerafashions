@@ -2,7 +2,13 @@ import { Link, useLocation } from 'react-router';
 import { ShoppingCart, Menu, X } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { useState, useEffect } from 'react';
-import logo from 'figma:asset/402c89b5ffe7e7779208266ee3c34a02fb7a954c.png';
+
+/**
+ * Standard Relative Import
+ * This assumes your Navbar is in a folder like src/components/
+ * '../assets/logo.png' goes up one level to 'src' and then into 'assets'
+ */
+import logo from '../../assets/logo.png';
 
 export const Navbar = () => {
   const { cartCount } = useCart();
@@ -37,7 +43,7 @@ export const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
+          {/* Logo Section */}
           <Link to="/" className="flex items-center gap-3 group">
             <img
               src={logo}
@@ -111,7 +117,7 @@ export const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
+      {/* Mobile Menu Content */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white border-t border-gray-200">
           <div className="px-4 py-4 space-y-3">

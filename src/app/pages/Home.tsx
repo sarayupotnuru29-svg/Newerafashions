@@ -4,7 +4,7 @@ import { ArrowRight, ShoppingBag, Award, TrendingUp, Sparkles } from 'lucide-rea
 import { ProductCard } from '../components/ProductCard';
 import { products } from '../data/products';
 
-const heroImage = 'https://images.unsplash.com/photo-1772474511860-9cef46d98ea6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwbW9kZWwlMjBsdXh1cnklMjBjbG90aGluZ3xlbnwxfHx8fDE3NzQ3Njc1MDV8MA&ixlib=rb-4.1.0&q=80&w=1080';
+const heroImage = 'https://cdn.wallpapersafari.com/14/13/iR9NcX.jpg';
 const featuredBg = 'https://images.unsplash.com/photo-1774280347568-83424451e5d9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcmVtaXVtJTIwZGVuaW0lMjBqZWFucyUyMGNvbGxlY3Rpb258ZW58MXx8fHwxNzc0ODY3MTM1fDA&ixlib=rb-4.1.0&q=80&w=1080';
 
 export const Home = () => {
@@ -175,7 +175,7 @@ export const Home = () => {
               className="grid grid-cols-2 gap-4"
             >
               {[
-                { label: '15+ Jeans', icon: '👖' },
+                { label: 'Jeans', icon: '👖' },
                 { label: 'Premium Shirts', icon: '👔' },
                 { label: 'Trendy Styles', icon: '✨' },
                 { label: 'Best Prices', icon: '💰' },
